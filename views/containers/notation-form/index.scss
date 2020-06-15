@@ -1,0 +1,24 @@
+.form {
+  &__container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  &__input {
+    &.MuiFormControl-root {
+      padding-bottom: 25px;
+    }
+    &_lg {
+      width: calc(100% - 60px);
+    }
+  }
+  &__buttons {
+    padding-top: 20px;
+    display: flex;
+  }
+  &__submit.MuiButton-root {
+    margin-right: 30px;
+  }
+}

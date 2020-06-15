@@ -1,0 +1,22 @@
+.details {
+  &__container {
+    padding: 20px;
+  }
+  &__title {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  &__description {
+    padding-bottom: 15px;
+  }
+  &__date {
+    padding-bottom: 15px;
+  }
+  &__completed {
+    padding-bottom: 15px;
+  }
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+}

@@ -1,0 +1,7 @@
+User-Agent: Yandex
+
+User-Agent: Googlebot
+Allow: *.css
+Allow: *.js
+
+User-Agent: *

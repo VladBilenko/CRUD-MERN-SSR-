@@ -1,0 +1,18 @@
+{
+  "short_name": "CRUD APP",
+  "name": "CRUD TODO APP",
+  "icons": [
+    {
+      "src": "lg_logo.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "lg_logo.png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

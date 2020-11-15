@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build:clean": "rimraf ./build",
-    "dev:start": "cross-env NODE_ENV=development webpack -w --config config/webpack.server.js",
+    "dev:start": "cross-env NODE_ENV=development webpack --config config/webpack.server.js",
     "start:server": "SERVER=true nodemon ./build/server.js",
     "start:view": "EXTEND_ESLINT=true node scripts/start.js",
     "build:view": "node scripts/build.js"
@@ -62,7 +62,7 @@
     "express-validator": "^6.5.0",
     "file-loader": "4.3.0",
     "fs-extra": "^8.1.0",
-    "history": "latest",
+    "history": "4.10.1",
     "html-webpack-plugin": "4.0.0-beta.11",
     "http2": "latest",
     "identity-obj-proxy": "3.0.0",

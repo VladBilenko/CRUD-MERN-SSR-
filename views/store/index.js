@@ -3,7 +3,6 @@ import createSagaMiddleware, {END} from 'redux-saga';
 import {routerMiddleware} from 'connected-react-router';
 import createRootReducer from './reducers';
 import {createBrowserHistory, createMemoryHistory} from "history";
-import rootSaga from "./sagas";
 
 const initialState = !process.env.SERVER ? window.__INITIAL_DATA__ : {};
 

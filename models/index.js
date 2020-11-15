@@ -11,8 +11,9 @@ import './Notation';
  * Set up DB connection.
  */
 const connectWithDB = function () {
+  console.log('connect mongo');
     try {
-        mongoose.connect('mongodb://localhost/27017', {
+        mongoose.connect('mongodb://mongo/27017', {
             useUnifiedTopology: true,
             useNewUrlParser: true,
             useCreateIndex: true

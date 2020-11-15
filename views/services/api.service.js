@@ -1,7 +1,7 @@
 import axios from "axios";
 // import {store} from "../store";
 
-axios.defaults.baseURL = 'https://localhost:3000/api/';
+axios.defaults.baseURL = 'http://localhost:3000/api/';
 
 class Api {
     constructor(httpClient, store) {

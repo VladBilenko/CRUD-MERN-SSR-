@@ -4,7 +4,7 @@
 
 import app from '../app';
 import fs from 'fs';
-// import http from 'http';
+import http from 'http';
 import debug from 'debug';
 import createSocketConnection from "../routes/api/soket";
 import * as spdy from "spdy";
@@ -19,14 +19,14 @@ app.set('port', port);
 /**
  * Create HTTP server.
  */
-const server = spdy.createServer(
-    {
-      key: fs.readFileSync('./localhost.key'),
-      cert: fs.readFileSync('./localhost.crt')
-    },
-    app
-);
-// const server = http.createServer(app);
+// const server = spdy.createServer(
+//     {
+//       key: fs.readFileSync('./localhost.key'),
+//       cert: fs.readFileSync('./localhost.crt')
+//     },
+//     app
+// );
+const server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
